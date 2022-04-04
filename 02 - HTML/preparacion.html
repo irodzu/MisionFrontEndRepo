@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pastelesideral | ¡Bienvenido!</title>
+        <style>
+            header {
+                height: 60px;
+                background-color: #FFE066;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                color: #F45D01;
+            }
+            
+            li {
+                display: inline;
+                float: left;
+                border-right: 1px solid #F5C400;
+            }
+            
+            li:last-child {
+                border-right: none;
+            }
+            
+            li a:hover {
+                background-color: #F5C400;
+            }
+    
+            a {
+                display: block;
+                padding: 10px;
+            }
+            
+            a:visited {
+                color: #F45D01;
+            }
+            section {
+                background-color: antiquewhite;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            h2, h3 {
+                text-align: center;
+            }
+            
+            table {
+                width: 100%;
+            }
+            
+            th, td {
+                border-bottom: 1px solid #aaa;
+            }
+            
+            .tdinv {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="pedidos.html">PEDIDOS</a></li>
+                <li><a href="preparacion.html">PREPARACIÓN</a></li>
+            </ul>
+        </header>
+        <section>
+            <div style="flex-grow: 2; background-color: #FFCDAE;">
+                <h2>Pedidos</h2>
+                <table>
+                    <tr>
+                        <th># Pedido</th>
+                        <th>Cliente</th>
+                        <th>Datos del Pastel</th>
+                        <th>Sabores</th>
+                        <th>Adornos</th>
+                        <th>Fecha Pedido</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">1</td>
+                        <td>Viviana Lima</td>
+                        <td>Adornar con mi nombre</td>
+                        <td>Fresa</td>
+                        <td>Frutas</td>
+                        <td style="text-align: center">01-03-2022</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">2</td>
+                        <td>Adán López</td>
+                        <td>Incluir velas</td>
+                        <td>Chocolate</td>
+                        <td>M&M's</td>
+                        <td style="text-align: center">03-03-2022</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">3</td>
+                        <td>Livia Hernández</td>
+                        <td>Añadir chochitos</td>
+                        <td>Chocolate, Fresa</td>
+                        <td>Galletas</td>
+                        <td style="text-align: center">03-03-2022</td>
+                    </tr>
+                </table>    
+            </div>
+            <div style="flex-grow: 1; background-color: #FEB485;">
+                <h2>Inventario Ingredientes</h2>
+                <h3>Sabores</h3>
+                <table>
+                    <tr>
+                        <th>Ingrediente</th>
+                        <th>Disponible</th>
+                        <th>Apartado</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td class="tdinv">10</td>
+                        <td class="tdinv">2</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Fresa</td>
+                        <td class="tdinv">10</td>
+                        <td class="tdinv">2</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Limón</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Napolitano</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Tres Leches</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Vainilla</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                </table>
+                <h3>Adornos</h3>
+                <table>
+                    <tr>
+                        <th>Ingrediente</th>
+                        <th>Disponible</th>
+                        <th>Apartado</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Chantilly</td>
+                        <td class="tdinv">10</td>
+                        <td class="tdinv">2</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Frutas</td>
+                        <td class="tdinv">10</td>
+                        <td class="tdinv">2</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Galletas</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>M&M's</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                    <tr>
+                        <td>Rulos</td>
+                        <td class="tdinv">12</td>
+                        <td class="tdinv">0</td>
+                        <td class="tdinv">12</td>
+                    </tr>
+                </table>
+                
+            </div>
+        </section>
+    </body>
+</html>
+
+<!-- Colores 
+    #5271FF

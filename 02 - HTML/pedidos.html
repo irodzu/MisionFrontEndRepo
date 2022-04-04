@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pastelesideral | ¡Bienvenido!</title>
+        <style>
+            header {
+                height: 60px;
+                background-color: #FFE066;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                color: #F45D01;
+            }
+            
+            li {
+                display: inline;
+                float: left;
+                border-right: 1px solid #F5C400;
+            }
+            
+            li:last-child {
+                border-right: none;
+            }
+            
+            li a:hover {
+                background-color: #F5C400;
+            }
+    
+            a {
+                display: block;
+                padding: 10px;
+            }
+            
+            a:visited {
+                color: #F45D01;
+            }
+            
+            section {
+                background-color: #FFEFAD;
+                width: 100%;
+                display: flex;
+            }
+            
+            .divMain {
+                width: 50%;
+            }
+            
+            .divSec {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="pedidos.html">PEDIDOS</a></li>
+                <li><a href="preparacion.html">PREPARACIÓN</a></li>
+            </ul>
+        </header>
+        <section>
+            <div class="divMain">
+                <h2>Sabores</h2>
+                <div class="divSec">
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Chocolate <br>$180</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Fresa <br>$180</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Limon <br>$170</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Napolitano <br>$180</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Tres Leches <br>$200</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Vainilla <br>$160</p>
+                    </div>
+                </div>
+                <h2>Adornos</h2>
+                <div class="divSec">
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Chantilly <br>$130</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Frutas <br>$150</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Galletas <br>$140</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">M&M's <br>$130</p>
+                    </div>
+                    <div>
+                        <img src="img/logo.png" height="80px" width="80px">
+                        <p style="text-align: center">Rulos<br>$180</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divMain">
+                <h2>Haz tu pedido</h2>
+                <form>
+                    <fieldset>
+                    <legend>Rellena el formulario</legend><br>
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="ftel">Teléfono:</label>
+                        <input type="tel" id="ftel" name="ftel"><br><br>
+                        <label for="fmail">Correo electrónico:</label>
+                        <input type="email" id="fmail" name="fmail"><br><br>
+                        <p>Selecciona tu(s) sabor(es):</p>
+                        <input type="checkbox" id="sab1" name="sab1">
+                        <label for="sab1">Chocolate | </label>
+                        <input type="checkbox" id="sab2" name="sab2">
+                        <label for="sab2">Fresa | </label>
+                        <input type="checkbox" id="sab3" name="sab3">
+                        <label for="sab3">Limón | </label>
+                        <input type="checkbox" id="sab4" name="sab4">
+                        <label for="sab4">Napolitano | </label>
+                        <input type="checkbox" id="sab5" name="sab5">
+                        <label for="sab5">Tres Leches | </label>
+                        <input type="checkbox" id="sab6" name="sab6">
+                        <label for="sab6">Vainilla</label>
+                        <p>Selecciona tu(s) adorno(s):</p>
+                        <input type="checkbox" id="sab1" name="sab1">
+                        <label for="sab1">Chantilly | </label>
+                        <input type="checkbox" id="sab2" name="sab2">
+                        <label for="sab2">Frutas | </label>
+                        <input type="checkbox" id="sab3" name="sab3">
+                        <label for="sab3">Galletas | </label>
+                        <input type="checkbox" id="sab4" name="sab4">
+                        <label for="sab4">M&M's | </label>
+                        <input type="checkbox" id="sab5" name="sab5">
+                        <label for="sab5">Rulos</label><br><br>
+                        <p>Descripción:</p>
+                        <textarea name="desc" rows="5" cols="75" placeholder="Ingresa tus comentarios o instrucciones especiales para la preparación de tu pastel..."></textarea><br><br>
+                        <center><button type="button">Confirma tu pedido</button></center>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
+
+<!-- Colores 
+    #5271FF
